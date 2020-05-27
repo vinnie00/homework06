@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/style.css">
+    </head>
+    <body>
+        <header>
+            <h1> Weather Dashbaord</h1>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-3 col-lg-3">
+                    <aside>
+                        <form class="form-inline mr-auto">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="searchInput">
+                            <button class="btn btn-outline-success btn-rounded btn-sm my-0" id="inputButton" type="submit">Search</button>
+                        </form>
+                        <div class="cities">
+                            
+                        </div>
+                    </aside>
+                </div>
+                <main class="col-sm-8 col-md-9 col-md-9">
+                    <div class="jumbotron">
+                        <h1 class="display-4" id="city"></h1>
+                        <p class="lead" id="temp">Temperature</p>
+                        <p class="lead" id="humidity">Humidity</p>
+                        <p class="lead" id="wind">Wind Speed</p>
+                        <p class="lead" id="uv">UV Index</p>
+                    </div>
+                    <div class="jumbotron">
+                        <h1 class="display-4">5-Day Forecast:</h1>
+                        <div class="row" id="fiveDayForecast">
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./Assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.searchSection{
+     background-color: red;
+}
+.container{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+button{
+    margin:5px;
+}
+#inputButton{
+    margin: 0px;
+}
